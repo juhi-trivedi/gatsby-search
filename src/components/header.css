@@ -1,0 +1,47 @@
+header {
+    padding: 25px 0;
+    display: inline-block !important;
+    width: 100%;
+    background: #f9f9ff;
+    vertical-align: top;
+}
+
+header .logo img {
+    margin: 0;
+}
+
+header .logo {
+    display: inline-block;
+    float: left;
+}
+
+header ul.menulist {
+    float: right;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0;
+}
+
+header ul.menulist li {
+    margin: 0;
+    display: inline-block;
+}
+
+header ul.menulist li a, header ul.menulist li button {
+    font-family: Open Sans, sans-serif;
+    padding: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: #222;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+header ul.menulist li:last-of-type a {
+    padding-right: 0;
+}
